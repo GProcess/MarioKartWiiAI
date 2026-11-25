@@ -13,7 +13,7 @@ add_library(mkw_bridge SHARED
     src/mkw_bridge.cpp
 )
 
-target_include_directories(mkw_bridge PRIVATE src)
+target_include_directories(mkw_bridge PRIVATE include)
 
 target_link_libraries(mkw_bridge PRIVATE
     imgui::imgui
