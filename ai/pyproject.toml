@@ -1,0 +1,6 @@
+[project]
+name = "MKW-AI"
+version = "0.1.0"
+description = "Mario Kart Wii AI"
+requires-python = ">=3.13"
+dependencies = []
